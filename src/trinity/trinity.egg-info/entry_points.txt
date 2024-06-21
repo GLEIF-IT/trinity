@@ -1,0 +1,2 @@
+[console_scripts]
+trinity = trinity.app.cli.trinity:main

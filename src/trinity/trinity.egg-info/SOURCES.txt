@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+trinity/trinity.egg-info/PKG-INFO
+trinity/trinity.egg-info/SOURCES.txt
+trinity/trinity.egg-info/dependency_links.txt
+trinity/trinity.egg-info/entry_points.txt
+trinity/trinity.egg-info/not-zip-safe
+trinity/trinity.egg-info/requires.txt
+trinity/trinity.egg-info/top_level.txt
