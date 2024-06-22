@@ -1,10 +1,9 @@
 {
     "dt": "2022-01-20T12:57:59.823350+00:00",
     "iurls": [
-      "http://49.12.190.139:5623/oobi/BILZrnru0e-0MUmnnjOdWTrZ7OW3sCuk_C_67uYeLsN_/witness",
-      "http://139.99.193.43:5623/oobi/BN6TBUuiDY_m87govmYhQ2ryYP2opJROqjDkZToxuxS2/witness",
-      "http://20.3.144.86:5623/oobi/BBD748wGFn9-1nfVEtfwd97wc-HCw0LRF2xeIujmqJOQ/witness",
-      "http://13.245.64.114:5623/oobi/BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR/witness",
-      "http://47.242.47.124:5623/oobi/BIKKuvBwpmDVA4Ds-EpL5bt9OqPzWPja2LigFYZN2YfX/witness"
+      "http://49.12.190.139:5623/oobi?name=gleif-0",
+      "http://139.99.193.43:5623/oobi?name=gleif-1",
+      "http://20.3.144.86:5623/oobi?name=gleif-2",
+      "http://47.242.47.124:5623/oobi?name=gleif-4"
     ]
   }

@@ -50,3 +50,8 @@ for w in "${ws[@]}"; do
   kli challenge respond --name probe --alias probe --recipient "r${r}" --words "${words}"
   kli challenge verify --name "r${r}" --alias "r${r}" --signer probe --words "${words}"
 done
+
+
+# bad so far
+# "http://13.245.64.114:5623/oobi?name=gleif-3",
+# "BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR",
