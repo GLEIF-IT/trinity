@@ -1,13 +1,6 @@
 #!/bin/bash
 
-lol() {
-    local SEED=$(date +%s)
-    local EMOJI_LIST=(🌟 ✨ 🌈 🎉 🎊 🎈 🏅 🏆 🌞 🌼 🌸 🌺 🍀 🍎 🍏 🍉 🍓 🍒 🍇 🍍 🥝 🥥 🍋 🍊 🍌 🍐 🍑 🍈 🥭 🥑 🥕 🥦 🥒 🌽 🌶 🫑 🥔 🥗 🥙 🥯 🥖 🥨 🍞 🥧 🍰 🎂 🍪 🍩 🍫 🍬 🍭 🍮 🍯)
-    local EMOJI_COUNT=${#EMOJI_LIST[@]}
-
-    RANDOM_INDEX=$((SEED % EMOJI_COUNT))
-    echo "${EMOJI_LIST[$RANDOM_INDEX]}"
-}
+source lol.sh
 
 if ! [[ "$(uname)" == "Darwin" ]]; then
     exit 1
@@ -20,7 +13,6 @@ else
     echo "Homebrew $(lol)"
 fi
 
-# Check if jq is installed
 if ! brew list jq &>/dev/null; then
     echo "jq is not installed. Installing jq..."
     brew install jq
@@ -28,7 +20,13 @@ else
     echo "jq $(lol)"
 fi
 
-# Check if tree is installed
+if ! brew list yq &>/dev/null; then
+    echo "yq is not installed. Installing yq..."
+    brew install yq
+else
+    echo "yq $(lol)"
+fi
+
 if ! brew list tree &>/dev/null; then
     echo "tree is not installed. Installing tree..."
     brew install tree

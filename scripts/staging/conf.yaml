@@ -1,0 +1,20 @@
+servers:
+  OC-AU-OVH-test:
+    ip: http://139.99.193.43:5623
+    said: BN6TBUuiDY_m87govmYhQ2ryYP2opJROqjDkZToxuxS2
+
+  NA-US-AZR-test:
+    ip: http://20.3.144.86:5623
+    said: BBD748wGFn9-1nfVEtfwd97wc-HCw0LRF2xeIujmqJOQ
+
+  AS-CN-ALI-test:
+    ip: http://47.242.47.124:5623
+    said: BBHjAqI2Bf_L6BtR0ueAGf12GXEKKCPo2etRCjuu87U7
+
+  AF-ZA-AWS-test:
+    ip: http://13.245.64.114:5623
+    said: BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR
+
+  EU-DE-HTZ-test:
+    ip: http://49.12.190.139:5623
+    said: BILZrnru0e-0MUmnnjOdWTrZ7OW3sCuk_C_67uYeLsN_
