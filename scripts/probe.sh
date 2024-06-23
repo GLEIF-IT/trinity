@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ "$1" != "--dev" && "$1" != "--staging" ]]; then
+if [[ "$1" != "--dev" && "$1" != "--staging" && "$1" != "--production" ]]; then
     echo "Invalid argument. Please provide --dev or --staging."
     exit 1
 fi
