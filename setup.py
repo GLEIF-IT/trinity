@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='trinity',
-    version='0.0.1',  # also change in src/kourier/__init__.py
+    version='0.0.1',  # also change in src/trinity/__init__.py
     license='None',
     description='Witness rotate service for GLEIF',
     author='Kevin Griffin',
