@@ -11,9 +11,9 @@ servers:
     ip: http://47.242.47.124:5623
     said: BBHjAqI2Bf_L6BtR0ueAGf12GXEKKCPo2etRCjuu87U7
 
-  AF-ZA-AWS-test:
-    ip: http://13.245.64.114:5623
-    said: BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR
+  # AF-ZA-AWS-test:
+  #   ip: http://13.245.64.114:5623
+  #   said: BHeD7WvSDGwm0glBHGTuHpGeMRq7HyCOAJ8h_epQyHkR
 
   EU-DE-HTZ-test:
     ip: http://49.12.190.139:5623
