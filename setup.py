@@ -34,7 +34,7 @@ setup(
     python_requires='>=3.12.2',
     install_requires=[
         'gleif_hio==0.6.22',
-        'gleif_keri==1.2.18',
+        'gleif_keri==1.2.19',
         'multicommand>=1.0.0',
         'dataclasses_json>=0.5.7',
     ],
