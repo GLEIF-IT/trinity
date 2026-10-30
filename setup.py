@@ -33,8 +33,8 @@ setup(
     ],
     python_requires='>=3.12.2',
     install_requires=[
-        'hio>=0.6.12',
-        'keri>=1.2.0-dev1',
+        'gleif_hio==0.6.22',
+        'gleif_keri==1.2.19',
         'multicommand>=1.0.0',
         'dataclasses_json>=0.5.7',
     ],

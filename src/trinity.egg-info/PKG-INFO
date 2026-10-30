@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: trinity
 Version: 0.0.1
 Summary: Witness rotate service for GLEIF
@@ -11,7 +11,18 @@ Keywords: keri,witness,rotation
 Classifier: Development Status :: 3 - Alpha
 Requires-Python: >=3.12.2
 License-File: LICENSE
-Requires-Dist: hio>=0.6.12
-Requires-Dist: keri>=1.2.0-dev1
+Requires-Dist: gleif_hio==0.6.22
+Requires-Dist: gleif_keri==1.2.19
 Requires-Dist: multicommand>=1.0.0
 Requires-Dist: dataclasses_json>=0.5.7
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

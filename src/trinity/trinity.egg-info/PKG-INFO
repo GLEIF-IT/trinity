@@ -11,7 +11,7 @@ Keywords: keri,witness,rotation
 Classifier: Development Status :: 3 - Alpha
 Requires-Python: >=3.12.2
 License-File: LICENSE
-Requires-Dist: hio>=0.6.12
-Requires-Dist: keri>=1.2.0-dev1
+Requires-Dist: gleif_hio==0.6.22
+Requires-Dist: gleif_keri==1.2.18
 Requires-Dist: multicommand>=1.0.0
 Requires-Dist: dataclasses_json>=0.5.7
